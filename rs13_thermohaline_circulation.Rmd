@@ -4,7 +4,8 @@ output:
     toc: true
     toc_depth: 3
     toc_float: true
-
+bibliography: rs13_unclassified.bib
+link-citations: true
 params:
   j: 13
 ---
@@ -25,17 +26,15 @@ knitr::opts_chunk$set(echo = FALSE, results = 'asis')
 ```
 
 
-# Thermohaline circulation
+# Atlantic Meridional Overturning Circulation (AMOC)
 
-**Main contributors**: Juan Carlos Rocha, Rolands Sadauskis
+**Main contributors**: Juan Carlos Rocha, Rolands Sadauskis, Sean Fagan
 
 **Other contributors**: Reinette (Oonsie) Biggs, Garry Peterson
 
-Last update: 2011-02-28
+Last update: 2026-06-17
 
 ```{r map, out.width='100%', out.height='300px', results = 'markup'}
-
-
 
 cs <- cases |> 
     filter(type == rs$regime_shift_name) 
@@ -52,9 +51,10 @@ m
 
 ### Summary
 
-A regime shift may be perceived in Thermohaline circulation (THC) as it might stop due to the increasing depletion of Arctic ice resulting in a catastrophic release of freshwater to the North Atlantic Ocean. This would balance out the differences in water salinity and density between Southern and Northern Atlantic Ocean. Therefore this would lead to collapse of water transport from tropical Atlantic to North Atlantic. Thus the high latitudes of the North Atlantic Ocean are perceived as key regions for triggering the collapse of THC. The regime shift is initiated by the main driver - input of Greenhouse gases in atmosphere. Particularly CO2 continues to increase the atmospheric temperatures thus leading to decrease in Arctic ice volumes. Therefore the amount of freshwater entering the ocean waters decline the salinity and density of the water which weakens the density driven water transport. Several essential mechanisms such as freshwater-overturning mechanism, water temperature-density mechanism and evaporation-salinity mechanism are proposed to weaken the THC. Current management strategies primarily relate to the decrease of greenhouse gas emissions on a global scale.
+The Atlantic Meridional Overturning Circulation (AMOC) is a major component of the climate system that transports heat northward in the Atlantic and helps regulate regional climate, rainfall patterns, sea level, and marine ecosystems. A regime shift may occur if the AMOC slows down substantially or shuts down. This ongoing slowing is driven mainly by anthropogenic climate change from greenhouse gases that increase temperatures and freshwater input into the system, reducing the salinity. These changes lower surface-water density, hindering deep-water formation and thereby weakening the density gradients and feedbacks that sustain the AMOC. Potential impacts include regional changes in climate, a shift of tropical rainfall belts, disruption of monsoon systems, regional sea-level rise, changes in storm tracks, impacts on agricultural food systems, and reduced marine productivity.
 
-
+{.tabset}
+--------------------------------------------------
 
 ### Categorical attributes
 
@@ -64,51 +64,21 @@ A regime shift may be perceived in Thermohaline circulation (THC) as it might st
 
 #### Impacts
 
-**Ecosystem type**:'
+**Ecosystem type:** Marine & coastal, Polar
 
-- Marine & coastal
+**Key ecosystem processes:** Primary production, Water cycling
 
+**Biodiversity:** Biodiversity
 
-**Key ecosystem processes**:
+**Provisioning services:** Food crops, Livestock, Fisheries,
 
-- Primary production
-- Water cycling
+**Regulating services:** Climate regulation, Water regulation
 
+**Cultural services:** NA
 
-**Biodiversity**:
+**Human well-being:** Food and nutrition, Livelihoods and economic activity, Security of housing & infrastructure, Social conflict
 
-- Biodiversity
-
-
-**Provisioning services**:
-
-- Food crops
-- Livestock
-- Fisheries
-
-
-**Regulating services**:
-
-- Climate regulation
-
-
-**Cultural services**:
-
-NA
-
-**Human well-being**:
-
-- Food and nutrition
-- Livelihoods and economic activity
-- Security of housing & infrastructure
-- Social conflict
-
-
-**Links to other regime shifts**:
-
-- Greenland ice sheet collapse
-- Monsoon
-
+**Links to other regime shifts:** Greenland ice sheet collapse, Monsoon
 
 :::
 
@@ -116,153 +86,232 @@ NA
 
 #### Drivers
 
-**Key drivers**:
+**Key drivers:** Global climate change
 
-- Global climate change
+**Land use:** NA
 
-
-**Land use**:
-
-NA
 
 #### Key attributes
 
-**Spatial scale**:
+**Spatial scale:** Sub-continental (e.g. southern Africa, Amazon basin), Global
 
-- Sub-continental (e.g. southern Africa
-- Amazon basin)
-- Global
+**Timescale:** Decades
 
+**Reversibility:** Irreversible (on 100 year time scale), Unknown
 
-**Time scale**:
+**Evidence:** Models, Paleo-observation
 
-- Decades
-- Centuries
+**Confidence: existence of the regime shift:** Contested – Reasonable evidence both for and against existence of RS
 
-
-**Reversibility**:
-
-- Unknown
-
-
-**Evidence**:
-
-- Models
-- Paleo-observation
-
-
-**Confidence: existence of the regime shift**
-
-- Speculative – Regime shift has been proposed, but little evidence as yet
-
-
-**Confidence: mechanisms underlying the regime shift**
-
-- Contested – Multiple proposed mechanisms, reasonable evidence both for and against different mechanisms
-
+**Confidence: mechanisms underlying the regime shift:** Contested – Multiple proposed mechanisms, reasonable evidence both for and against different mechanisms
 
 :::
 
 ::::
 
-### Detail information
+### Detail info and key references
 
-#### Alternative regimes
+#### Alternative Regimes
 
-Thermohaline circulation is complex, but can be summarised as a global scale deep overturning of water masses, with sinking motions occurring in the northern Atlantic and around Antarctica and a transport of relatively warm surface waters towards these sinking regions [Steffen et al. 2004]. The term thermohaline circulation thus refers to a particular driving mechanism; it is a physical, not an observational concept.
+##### Strong AMOC
 
- **Strong Thermohaline circulation** 
+At its most fundamental, the AMOC acts as a heat conveyor, redistributing thermal energy from the tropics and Southern Hemisphere toward the North Atlantic and northern high latitudes. It does this through the northward transport of warm, salty water in the upper Atlantic, which progressively cools and densifies as it approaches high northern latitudes. This densification drives deep-water formation in the Labrador Sea, the Nordic Seas, and surrounding regions, from which North Atlantic Deep Water is exported southward at depth [@rahmstorf2006; @stouffer2006]. The AMOC does not operate in isolation, however, and forms part of the wider global overturning circulation, connecting to Southern Ocean upwelling and wind-driven processes that sustain the broader exchange of water masses across ocean basins [@baker2025].
 
- THC regime can be characterized by:
+An AMOC regime can be characterised by:
 
- * Deep water currents formation in the high latitudes of both hemispheres;
-* Spreading of deep waters mainly as deep western boundary currents.
-* Upwelling (or upwards movement) of deep waters. It is thought to take place mainly in the Antarctic Circumpolar Current region, possibly aided by the wind.
-* Near-surface currents: these are required to close the flow [Rahmstorf et al. 2006]
+- Deep-water formation in high-latitude regions of the North Atlantic.
 
- **Collapse of the Thermohaline circulation**
+- Spreading of deep waters, including through deep western boundary currents.
 
- This regime is characterized by weak formation of the dense and saline high latitude deep waters due to the increased influx of freshwater. The decreased salinity of the deep waters is weakening the density driven water movement towards south. The transport of less dense and saline waters from south towards north is decreased causing additional atmospheric temperature increase in tropical areas.
+- Upwelling of deep waters, especially in the Southern Ocean, is aided by winds and mixing.
 
+- Near-surface currents that close the circulation.
 
+- A positive salt-advection feedback; northward transport of saline water helps maintain dense-water formation [@rahmstorf2006].
 
-#### Drivers and causes of the regime shift
+##### Weakened or collapsed AMOC
 
-Increasing greenhouse gas concentration from anthropogenic sources is predicted to cause a rise in global mean temperatures [Cubasch et al. 2001]. One of the most common anthropogenic greenhouse gases is carbon dioxide (CO2). It is considered to be the main driver for this regime shift and is typically operating in global scale due to the global input of CO2 in the atmosphere. Increasing CO2 levels in atmosphere slowly enhance the mean atmospheric temperature. This results in weakening ice-albedo mechanism for the initial regime as a result of increased atmospheric temperatures and changes in albedo. The increasing freshwater influx from loss of ice is initiating the two main mechanisms for the new regime: freshwater-overturning mechanism and the precipitation-river runoff mechanism. Thus, new processes such as increased evaporation, river runoff, changes in water salinity and density are activated causing the system to shift to a new regime. The influence of this driver is well established. Another cause for the regime to shift is the burning of fossil fuels such as coal and natural gas. It is occurring regionally but has global impact and is well established in the literature.
+A full collapse or near-collapse would involve a dramatic reduction in overturning strength, the rate at which water mass is transported through the ocean circulation system. This regime is characterised by weak formation of dense, saline deep waters at high latitudes, driven by the increased influx of freshwater that reduces surface density and suppresses sinking. As less dense and saline water is transported northward from the south, the density-driven return flow weakens further, and heat that would ordinarily be carried northward accumulates in tropical regions, driving additional atmospheric temperature increases there.
 
+The consequences for the broader climate system would be far-reaching. Reduced northward heat transport could cause atmospheric and sea surface temperatures to fall across the North Atlantic and northern high latitudes, with expanded sea ice coverage as a result. At the same time, sea levels along the northeastern Atlantic coastlines could rise, as the weakened circulation reduces the ocean's ability to draw water away from those margins. Changes in the temperature gradient between low and high latitudes would also alter the behaviour of mid-latitude cyclones, shifting storm tracks and affecting precipitation patterns across Europe and North America.
 
+These projected impacts are supported by model experiments and assessment literature on AMOC weakening [@delworth2008; @ipcc2022; @ipcc2023]. The timing of such a collapse remains uncertain, with some recent studies suggesting a potential tipping point before the end of the 21st century [@vanwesten2024; @ipcc2023].
 
-#### Impacts on ecosystem services and human well-being
+#### Drivers and Causes
 
-The weakening of THC has influence on global water regulation as water circulations in Global scale are influenced by the changes in temperature, salinity and density. In response, climate regulation is altered and changed as the transport of heat is distributed in a different pattern. The water mass and heat circulation is not transporting the heat towards Northern latitudes. This could lead to increased hurricane activity, a southward shift of tropical rainfall belts with resulting agricultural impacts, and disruptions to marine ecosystems. Therefore fisheries, livestock and food crops as provisioning services are potentially affected.
+The primary driver of potential AMOC regime shift is the increase in greenhouse gas emissions. As rising atmospheric CO₂ concentrations warm the climate, ice loss accelerates and surface reflectivity declines, weakening the ice-albedo feedback that would otherwise moderate warming [@ipcc2023]. This warming intensifies the freshwater cycle through increased ice melt, evaporation, precipitation, and river runoff, all of which reduce the salinity and density of surface waters in the high-latitude North Atlantic. As surface waters become less dense, stratification in the subpolar gyre strengthens, suppressing the deep convection that drives the sinking of dense water and ultimately sustains the AMOC. The collapse of this convection is considered a likely precursor to full AMOC shutdown. With deep-water formation weakened, the northward transport of salt diminishes, potentially reinforcing further freshening in a self-sustaining cycle of circulation decline [@weijer2020; @nummelin2026]. 
 
- Food crisis and emigration are potential threats in the regions that are subjected to the loss of these services (Barnett and Adger, 2007). In addition to the above impacts, regional changes in sea level would project sea level rise of up to 80 cm in the North Atlantic [Knutti et al. 2002]. This could affect the coastlines of the United States, Canada, and Europe causing coastal erosion and affecting security of housing and infrastructure [Delworth et al. 2008]. The marine biodiversity of flora and fauna would change as the salinity and temperature would drive the introduction of new species that are able to live in the new environment. This would affect the livelihoods and economic activity of local fishermen as they would have to adapt to new circumstances. Schmittner et al. (2007) show that changes in Atlantic circulation can have large effects on marine ecosystems and biogeochemical cycles, even in areas remote from the Atlantic, such as the Indian and North Pacific Oceans. Although loss of THC could plunge Western Europe into conditions much colder than our current climate, on the basis of our current understanding of the climate system, such a scenario appears very unlikely. On the multidecadal to century time scale, it is very likely that Europe and North America will warm in response to increasing greenhouse gases (although natural variability and regional shifts could lead to periods of decadal-scale cooling in some regions) [Delworth et al. 2008]. A warmer and more stratified North Atlantic would also take up less anthropogenic CO2, thus adding to the climate warming [Clark et al. 2002]. Substantial warming would occur over the United States and Mexico, with weaker warming over Western Europe [Schmittner et al. 2007; Broecker et al. 1997].
+#### Impacts on Ecosystem Services and Human Well-being
 
+The weakening of the AMOC can have major impacts on ecosystem services and human well-being because large-scale ocean circulation influences global water regulation, climate regulation, and marine ecosystems. Changes in ocean temperature, salinity, and density affect how water masses circulate and how heat is distributed across the globe. If less heat is transported northward toward the North Atlantic, regional climate patterns may shift, affecting weather systems, storm tracks, rainfall distribution, and marine productivity.
 
+One important impact is the potential southward displacement of tropical rainfall belts. This could reduce rainfall in some tropical and subtropical regions and affect areas such as the Sahel, the Amazon region, and monsoon systems [@zhang2005; @lu2008; @ipcc2022]. These changes may have serious consequences for food production and water security, especially in regions that depend on rain-fed agriculture. Provisioning services such as fisheries, livestock, and food crops could therefore be affected through changes in rainfall, temperature, growing seasons, storm exposure, and marine productivity [@ipcc2022; @nummelin2026]. In vulnerable regions, the loss or reduction of these services may contribute to food insecurity, economic stress, and migration pressures [@barnett2007].
 
-#### Management options
+A weakened AMOC may also influence coastal systems and infrastructure. Regional changes in ocean circulation can contribute to dynamic sea-level rise along parts of the North American Atlantic coast and other North Atlantic coastlines [@ipcc2022]. Studies have suggested that sea level in the North Atlantic could rise substantially under major circulation changes, increasing risks for coastal erosion, flooding, and damage to housing and infrastructure [@knutti2002; @delworth2008]. These impacts would directly affect human security and the economic stability of coastal communities.
 
-The options for potentially preventing regime shift or restoring the desirable regime overlap. This potential regime shift mainly relate to the increase of greenhouse gas input (the main driver) in to the atmosphere at a global scale. Therefore decrease in CO2 emissions and other greenhouse gases has to be achieved in order to prevent further climate warming leading to large influx of freshwater from the depletion of Arctic ice. In the best-case scenario, it may be possible to avert a regime change in a situation where the underlying driver(s) of change are amenable to fast manipulation through management, and where there are not substantial lags in ecosystem response. In the case of the THC neither of these factors hold: the underlying causes of global warming appear very difficult to address through rapid changes in management, and there are substantial inertias in ecosystem response to changes in the driving factors. Therefore an early warning system primarily would be useful in providing advance warning of a substantial coming change in ecosystem conditions, but is unlikely to be useful in averting the regime change.
+Marine ecosystems would also be affected. Changes in salinity, temperature, stratification, and nutrient circulation can alter marine biodiversity, ecosystem structure, fish distributions, and productivity. New species may become more suitable for changed environmental conditions, while existing species may decline or move to other areas. This could affect the livelihoods and economic activity of local fishing communities, which would need to adapt to changing fish stocks and ecosystem conditions. Atlantic circulation can also affect marine ecosystems and biogeochemical cycles beyond the Atlantic, including in remote regions such as the Indian and North Pacific Oceans [@schmittner2007].
 
+A warmer and more stratified North Atlantic may reduce the ocean’s ability to take up anthropogenic carbon dioxide, which could further contribute to climate warming, thus adding to climate warming [@clark2002; @zickfeld2008]. Overall, the weakening of the AMOC could affect regulating, provisioning, and supporting ecosystem services, with serious consequences for food systems, coastal infrastructure, marine livelihoods, and human well-being. Furthermore, the background global mean temperature will influence the nature and severity of the climate impacts associated with AMOC weakening.
 
+#### Management Options
 
-### Regime shift Analysis
+The main strategy for reducing the risk of severe AMOC weakening or collapse is rapid reduction of greenhouse gas emissions. Because AMOC weakening is driven by large-scale climate forcing, local management alone cannot prevent the regime shift. However, risks can be reduced through mitigation, monitoring, early warning, and adaptation.
 
-```{r cld, error = FALSE, message = FALSE, out.width='80%'}
+Key management options include:
 
-source('tools.R')
-load('assets/clds.Rda')
+- Rapid global reduction of greenhouse gas emissions to limit warming and reduce freshwater forcing from accelerated ice melt and hydrological cycle intensification.
 
-if (rs$regime_shift_name %in% clds$regime_shift) {
-    gg <- rs_net(clds, rs$regime_shift_name) |> 
-    plot_net()
-    girafe(ggobj = gg)}
-```
+- Protection and expansion of long-term AMOC observing systems, including mooring arrays, hydrographic sections, Argo floats, satellite observations, and salinity monitoring in key regions [@mccarthy2023].
 
-```{r}
+- Improved modelling of Greenland meltwater, Arctic freshwater export, Southern Ocean upwelling, mesoscale ocean eddies, and salt advection feedbacks to reduce uncertainty in collapse projections [@baker2025].
 
-load('assets/rs_analysis_text.Rda')
+- Long-term funding and operationalisation of AMOC early warning systems that couple direct ocean observations with model simulations and are embedded in policy-making processes [@nummelin2026].
 
-if (is.null(rs_analysis[[rs$regime_shift_name]]))  'This regime shift does not have a feedback analysis yet' else 
-    rs_analysis[[rs$regime_shift_name]] |> writeLines()
-```
+- Adaptation planning for coastal sea level rise, changes in storm exposure, fisheries shifts, rainfall changes, and food security risks across vulnerable regions [@ipcc2022].
 
-## Citation
+- Integration of AMOC collapse risk into national climate risk assessment frameworks, particularly for infrastructure, agriculture, fisheries, insurance, and coastal planning.
 
- Acknowledge this review as:
+In the best-case scenario, limiting warming reduces the likelihood of crossing poorly constrained AMOC thresholds. However, because the AMOC has large inertia and may respond slowly to forcing, delayed action can increase the likelihood of collapse [@knutti2002; @lenton2008].
 
-<small> Juan Carlos Rocha, Rolands Sadauskis, Reinette (Oonsie) Biggs, Garry Peterson. Thermohaline circulation. In: Regime Shift Database, www.regimeshifts.org. Last revised: 2011-02-28</small>
+#### Feedback Mechanisms:
 
-### References
+##### Strong AMOC
 
-<small>
+##### Freshwater–overturning mechanism / Salt advection feedback (regional, well established)
 
-- Barnett J, Adger WN (2007) Climate change, human security and violent conflict. Journal of Experimental Marine Biology and Ecology 26:639u2013655. 
-- Bitz CM, Gent PR, Woodgate RA, Hall A, Holland MM, and Lindsay R. 2006. The influence of sea ice on ocean heat uptake in response to increasing CO2. J. Clim 20, 2437-2450. 
-- Bond G, Showers W, Elliot M, Evans M, Lotti R, Hajdas I, Bonani G, Johnsen SJ, 1999. The North Atlantic’s 1-2 kyr climate rhythm: Relation to Heinrich events, Dansgaard/Oescheger cycles and the Little Ice Age. In: Clark PU, Webb RS, Keigwin LD (eds) Mechanisms of global climate change at millennial time scales. American Geophysical Union, Washington. USA.35-58. 
-- Broecker WS. 1997. Thermohaline Circulation, the Achilles Heel of Our Climate System: Will Man-Made CO2 Upset the Current Balance? Science 278,1582 – 1588. 
-- Clark PU, Pisias NG, Stocker TF, Weaver AJ. 2002. The role of the thermohaline circulation in abrupt climate change. Nature 415,863-869. 
-- Cubasch U. et al. 2001. Projections of future climate change. Climate Change 2001: The Scientific Basis, Houghton JT, et al., Eds., Cambridge University Press. 525–582. 
-- Delworth TL, Clark PU, Holland M, Johns WE, Kuhlbrodt T, Lynch-Stieglitz J, Morrill C, Seager R, Weaver AJ, and Zhang R. 2008. The potential for abrupt change in the Atlantic Meridional Overturning Circulation. In: Abrupt Climate Change. A report by the U.S. Climate Change Science Program and the Subcommittee on Global Change Research. U.S. Geological Survey, Reston, VA, pp. 117–162. 
-- Higgins PAT. and Schneider SH. 2005. Long-term potential ecosystem responses to greenhouse gas-induced thermohaline circulation collapse. Global Change Biology 11,699-709. 
-- Holland MM, Bitz CM, and Tremblay B. 2006. Future abrupt reductions in the summer Arctic sea ice. Geophys. Res. Lett. 33. 
-- IPCC 2007. Climate Change 2007. The Physical Science Basis. Cambridge University Press, New York. 
-- Knutti R, Stocker TF. 2002. Limited predictability of the future thermohaline circulation close to an instability threshold. J Climate 15,179-186. 
-- Lenton, T. et al. 2008. Tipping elements in the Earth's climate system. Proceedings of the National Academy of Sciences 105, 1786 . 
-- Lindsay RW, and Zhang J. 2005. The thinning of Arctic sea ice, 1988– 2003: Have we passed a tipping point?, J. Clim., 18,4879– 4894. 
-- Lu RY, and Dong BW. 2008. Response of the Asian summer monsoon to a weakening of Atlantic thermohaline circulation. Adv. in Atmos. Sci. 25,723-736. 
-- Otterå OH, Drange H, Bentsen M, Kvamstø NG, and Jiang D. 2004. Transient response of the Atlantic meridional overturning circulation to enhanced freshwater input to the Nordic Seas-Arctic Ocean in the Bergen Climate Model. Tellus, 56A, 342-361. 
-- Peterson BJ, Holmes RM, McClelland JW, Vorosmarty CJ, Lammers RB, Shiklomanov AI, Shiklomanov IA, Rahmstorf S. 2002. Increasing river discharge to the Arctic Ocean. Science 298,2171-2173. 
-- Rahmstorf S. 2000. The thermohaline ocean circulation—A system with dangerous thresholds?, Clim. Change 46,247–256. 
-- Rahmstorf S. 2006. Thermohaline Ocean Circulation. In: Encyclopedia of Quaternary Sciences, Edited by Elias SA. Elsevier, Amsterdam. 
-- Rigor IG, Wallace JM, and Colony RL. 2002. Response of sea ice to the Arctic Oscillation. J. Climate 15,2648–2668. 
-- Ruhlemann C, Mulitza S, Muller PJ, Wefer G, Zahn R. 1999. Warming of the tropical Atlantic Ocean and slow down thermocline circulation during the last deglaciation. Nature 402,511-514. 
-- Schmittner A, Brook EJ, & Ahn J. 2007.  Ocean Circulation: Mechanisms and Impacts - Past and Future Changes of Meridional Overturning (eds Schmittner, A, Chiang JCH, & Hemming SR.) Geophysical Monograph Series, American Geophysical Union 173,209–246. 
-- Steffen W, Sanderson A, Jager J, Tyson PD, Moore B III, et al. 2004. Gloabl change and the Earth system: A Planet Under Pressure. Heidelberg: Springer-Verlag. 239-242. 
-- Stouffer RJ, Yin J, Gregory JM, Dixon KW, Spelman MJ, Hurlin W, Weaver AJ, Eby M, Flato GM, Hasumi H, Hu A, Jungclaus JH, Kamenkovich IV, Levermann A, Montoya M, Murakami S, Nawrath S, Oka A, Peltier WR, Robitaille DY, Sokolov A, Vettoretti G, Weber SL. 2006. Investigating the causes of the response of the thermohaline circulation to past and future climate changes. Journal of Climate 19,1365-1387. 
-- Zhang R, Delworth TL. 2005. Simulated tropical response to a substantial weakening of the Atlantic thermohaline circulation. Journal of Climate 18, 1853-1860. 
-- Zhang X, and Walsh JE. 2006. Towards a seasonally ice-covered Arctic Ocean: Scenarios from the IPCC AR4 simulations, Journal of Climate 19,1730– 1747. 
-- Zickfeld K, Eby M, and Weaver AJ. 2008. Carbon-cycle feedbacks of changes in the Atlantic meridional overturning circulation under future atmospheric CO2, Global Biogeochem. Cycles, 22.
+This feedback mechanism is often considered central to the existence and stability of the AMOC. In the deep ocean, the main driver of circulation is differences in water density, which are controlled primarily by salinity and temperature. Water becomes denser as salinity increases and temperature decreases. This is why deep water is presently formed in the North Atlantic, where surface waters are relatively cold and salty, but not in the North Pacific, where surface waters are generally fresher.
 
-</small>
+Under a strong AMOC, warm and salty surface waters are transported northward from the subtropical Atlantic into the North Atlantic deep-water formation regions. As this water moves north, it loses heat to the atmosphere, cools, becomes denser, and sinks. This sinking drives the deep return flow southward and helps maintain the overturning circulation. At the same time, the northward transport of salt continuously replenishes salinity in the sinking regions. This is known as the salt advection feedback: a strong AMOC transports more salt northward, which increases water density and supports further deep-water formation, thereby reinforcing the circulation itself [@rahmstorf2000; @rahmstorf2006].
+
+The balance of freshwater input is also important. If large amounts of freshwater enter the North Atlantic, for example, through increased precipitation, river runoff, or ice melt, surface salinity decreases. Fresher water is less dense and therefore less able to sink. This can weaken vertical mixing and promote stratification, where lighter surface waters remain above denser deep waters. Under strong AMOC conditions, however, salt transport from the south helps counterbalance freshwater input and maintain the density contrast needed for deep-water formation [@rahmstorf2000; @rahmstorf2006].
+
+This mechanism also affects the ocean carbon cycle. When deep water forms, surface waters that have absorbed atmospheric CO₂ can be transported into the deep ocean. In this way, a strong overturning circulation contributes to the ocean’s role as a carbon sink by moving carbon away from the surface and storing it in deeper ocean layers over long timescales.
+
+##### Thermohaline feedback (regional, well established)
+
+The thermohaline feedback is closely connected to the freshwater overturning and salt advection mechanisms. As warm surface water is transported northward by the AMOC, it releases heat to the atmosphere, especially in the North Atlantic. This cooling increases the density of surface waters, allowing them to sink and form deep water. The sinking then helps drive the southward return flow at depth.
+
+This creates a reinforcing feedback: a strong AMOC transports more warm water northward; this water cools and becomes denser; denser water sinks more efficiently; and the resulting deep-water formation helps maintain the overturning circulation. The feedback, therefore, links heat transport, surface cooling, density increase, and deep-water formation [@zickfeld2008].
+
+##### Ice–albedo feedback (regional, well established)
+
+The ice–albedo mechanism contributes to maintaining the climatic conditions under which the AMOC can remain strong. Ice and snow have a high albedo, meaning they reflect a large proportion of incoming solar radiation back to space. When atmospheric temperatures are low enough, snow and ice cover can expand. This increases surface reflectivity, reduces solar absorption, and promotes further cooling. In this way, the ice–albedo feedback can help maintain lower temperatures and preserve ice volume in the Northern Hemisphere.
+
+This mechanism also influences freshwater input into the North Atlantic. When ice volume is maintained, large pulses of meltwater into the ocean are avoided. This helps prevent excessive freshening of the North Atlantic surface waters, which would otherwise reduce density, inhibit sinking, and weaken the AMOC. In this sense, the ice–albedo feedback can indirectly support the freshwater overturning mechanism by helping regulate freshwater delivery to deep-water formation regions [@li2021].
+
+Under a strong AMOC, however, the relationship also works in the opposite direction. The AMOC transports heat northward, which can limit sea-ice expansion in parts of the high-latitude North Atlantic. Reduced sea-ice cover allows continued exchange of heat and moisture between the ocean and atmosphere. This open-water exchange is important because surface cooling and evaporation can increase water density and salinity, supporting continued deep-water formation. Therefore, in a strong AMOC regime, sea-ice extent, surface heat exchange, and salinity conditions interact in ways that can reinforce the circulation.
+
+##### Atmospheric feedback (regional, well established)
+
+The AMOC interacts with the atmosphere through heat and moisture exchange. As the AMOC transports warm water northward, heat is released from the ocean to the atmosphere. This affects regional atmospheric temperatures, evaporation patterns, and freshwater balance over the Atlantic.
+
+In the subtropical Atlantic, evaporation removes freshwater from the ocean surface and leaves the remaining water saltier. This saltier water can then be transported northward by the AMOC into the deep-water formation regions. There, the higher salinity contributes to increased surface water density and supports sinking. This creates another reinforcing feedback: a strong AMOC promotes evaporation and salinity concentration in the Atlantic, and the resulting saltier water helps maintain the density structure needed for continued overturning [@lee2024].
+
+This atmospheric feedback overlaps with the salt advection feedback but emphasises a different part of the process. The salt advection feedback focuses on the oceanic transport of salt toward the North Atlantic, while the atmospheric feedback focuses on how evaporation, heat loss, and air–sea exchange help create and maintain the salinity and density conditions that support the AMOC.
+
+##### Collapse of the AMOC
+
+##### Freshwater-overturning mechanism (regional, well established)
+
+This mechanism is closely linked to the water temperature-density and evaporation-salinity mechanisms because it affects two key variables: ocean salinity and density. Increased precipitation, river runoff, and melting ice add freshwater to the ocean, especially in the North Atlantic. This reduces surface salinity and density, weakening the formation of dense deep water and thereby slowing thermohaline circulation (THC).
+
+The certainty of this feedback mechanism is high. It is well established that increased freshwater input can reduce salinity and disrupt the existing circulation regime [@rahmstorf2000]. However, it remains debated whether this is the dominant mechanism maintaining the new regime, since temperature-driven density changes also strongly influence THC.
+
+Deep ocean circulation is mainly driven by density differences caused by salinity and temperature: saltier and colder water is denser. This explains why deep water currently forms in the salty North Atlantic but not in the fresher North Pacific. As surface temperatures rise, upper-ocean warming and reduced ice growth increase freshwater input from melting ice. Higher freshwater levels at high latitudes weaken overturning, and slower surface flow remains exposed to freshwater forcing for longer [@ottera2004]. As salt transport from the south declines, salinity decreases further [@rahmstorf2000].
+
+Warmer, fresher surface water lowers upper-ocean density and increases stratification. Stronger stratification limits vertical mixing and can reduce ocean CO₂ uptake. This allows more CO₂ to remain in the atmosphere, contributing to further warming and reinforcing the feedback.
+
+##### Water temperature – density mechanism (regional, well established)
+
+This feedback mechanism is considered important for a possible AMOC shift toward a collapsed regime, alongside the freshwater-overturning mechanism [@lenton2008]. Its strength depends on water temperature, which affects water density. Water density is the key slow variable linking this mechanism to other THC feedbacks (see Fig. 1).
+
+Climate warming, driven by increased greenhouse gas concentrations, especially CO₂, raises sea surface temperatures. Cold surface waters are dense enough to sink to the deep ocean only in a few key high-latitude locations, where seawater density is strongly temperature dependent. As surface waters warm, their density decreases, producing less dense upper water.
+
+This increases ocean stratification and slows the transport of CO₂ from the surface to the deep ocean, reducing ocean CO₂ uptake. Weakening this major global CO₂ sink would leave more CO₂ in the atmosphere, reinforcing atmospheric warming [@zickfeld2008].
+
+##### The evaporation-salinity mechanism (regional, contested)
+
+Rising atmospheric temperatures and declining Arctic ice volume expand areas of ice-free water [@lindsay2005]. This can increase evaporation from open water, influencing ocean salinity and density. If precipitation exceeds evaporation, salinity decreases, producing fresher and less dense upper-ocean water. This enhances stratification and can reduce ocean CO₂ uptake by limiting vertical mixing and absorption. As more CO₂ remains in the atmosphere, warming increases further, reinforcing the feedback.
+
+This mechanism follows a similar pattern to the freshwater-overturning and water temperature-density mechanisms, but it is contested because evaporation can affect salinity in two opposing ways. If evaporation exceeds precipitation, salinity increases because salt remains in the ocean. However, if increased atmospheric water vapour leads to greater precipitation than evaporation, salinity decreases [@durack2012]. Therefore, the mechanism is closely linked to the precipitation-river runoff mechanism.
+
+The strength of this feedback remains uncertain and depends on other processes, including ice-volume and ice-albedo feedbacks, which influence the amount of open water available for evaporation.
+
+##### Precipitation-river runoff mechanism (regional, contested)
+
+This mechanism is influenced by the ice-albedo mechanism, as rising atmospheric temperatures reduce Northern Hemisphere ice volume and expand areas of ice-free water [@lindsay2005]. Larger open-water areas can increase evaporation, leading to higher precipitation. If precipitation exceeds evaporation, river runoff increases, adding freshwater to the Arctic Ocean.
+
+The dominance of this mechanism remains contested, although it is often considered one of the two main mechanisms, alongside freshwater overturning, that may support the new regime. This is because both mechanisms strongly affect the key slow variables of the THC: water salinity and density.
+
+Evidence shows increasing Arctic river discharge. Total river inflow to the Arctic Ocean is dominated by Eurasian rivers, where average annual discharge has increased by about 128 km³/year since routine measurements began in the 1930s, an increase of approximately 7% [@peterson2002]. Additional freshwater forcing comes from other Arctic rivers, direct precipitation over the ocean, and Greenland meltwater.
+
+Increased freshwater input at high latitudes weakens overturning, while slower surface flow remains exposed to freshwater forcing for longer [@ottera2004]. As salt transport from the south declines, salinity decreases further [@rahmstorf2000]. Warmer, fresher surface water lowers upper-ocean density and increases stratification. This can reduce ocean CO₂ uptake by limiting vertical mixing and absorption, leaving more CO₂ in the atmosphere and reinforcing further ocean warming.
+
+##### Salinity-Convection mechanism (regional, well-established)
+
+This mechanism is closely linked to the evaporation-salinity mechanism, as decreasing salinity reduces water density. Oceanic convection is driven by density differences and is essential for global ocean circulation. Stronger density contrasts generally make convection more likely or more rapid [@bitz2006].
+
+When salinity and density decline, convection weakens and normal overturning can be disrupted. In some cases, relatively warm, saline water may sink while colder, fresher water rises, altering the usual circulation pattern. This produces a more sluggish surface flow that remains exposed to freshwater forcing for longer [@ottera2004]. As salt transport from the south declines, salinity decreases further, reinforcing the mechanism.
+
+##### The ice-albedo mechanism (regional, well-established)
+
+This mechanism typically operates at a regional scale and is well established, giving it high certainty. However, it is not strong enough on its own to shift the system into a new regime; it must interact with other feedback mechanisms.
+
+There is broad agreement that Arctic sea ice extent will decline during the 21st century in response to increased atmospheric greenhouse gas concentrations. Rising surface air temperatures alter sea ice thermodynamics, including heat exchange within the ice and between its upper and lower surfaces. This reduces sea ice volume.
+
+As summer open-water areas expand, surface albedo decreases because the darker ocean absorbs more solar radiation than ice [@lindsay2005]. Lower surface albedo increases the annual absorption of solar radiation [@rigor2002; @holland2006]. This additional heat reinforces the initial warming, strengthening the feedback.
+
+#### Drivers
+
+Greenhouse gas emissions (global, well-established): Increasing anthropogenic greenhouse gas concentrations, especially CO₂, raise global mean temperatures. This warming reduces ice volume, alters albedo, and increases freshwater input through melting ice, precipitation, and river runoff. These changes affect evaporation, salinity, and density, pushing the system toward a collapsed thermohaline circulation regime.
+
+Fossil fuel burning (global, well-established): Burning coal, oil, and natural gas increases atmospheric CO₂ concentrations, contributing to climate warming. This accelerates sea-ice loss and affects water salinity and density, both of which are essential for thermohaline circulation.
+
+Mean atmospheric temperature (global, well-established): Rising atmospheric temperature is especially important at high northern latitudes, where reduced sea ice and snow cover lower albedo. This strengthens warming, increases ice melt, and contributes to freshwater runoff and precipitation changes that support the shift toward a new regime.
+
+Water salinity and density (regional, well-established): These are key slow variables because salinity directly affects water density. Increasing freshwater input from melting ice and river runoff lowers salinity and density, weakening density-driven ocean circulation. The strength of this effect depends on where freshwater enters the ocean.
+
+Extreme droughts (regional, contested): Extreme droughts could reduce precipitation and river runoff, lowering freshwater input into the ocean. This may weaken the precipitation-river runoff and freshwater-overturning mechanisms, potentially reducing the risk of thermohaline circulation collapse.
+
+##### Key Thresholds
+
+The original thresholds should be treated as conceptual rather than precisely known. AMOC thresholds are not defined by a single atmospheric temperature or salinity value. Instead, they depend on background climate state, freshwater forcing, greenhouse-gas forcing, salt-advection feedbacks, Southern Ocean processes, model structure, and internal variability [@rahmstorf2000; @knutti2002; @lenton2008].
+
+Possible threshold-related variables include:
+
+Sea surface temperature (SST) fingerprint: A cooling anomaly in the subpolar North Atlantic, often called the “cold blob,” can indicate weakening northward heat transport. This can be tracked by comparing subpolar North Atlantic SST with global mean temperature trends [@fan2025].
+
+Salinity advection feedback / freshwater transport (Fov): This metric indicates whether the AMOC imports or exports salt from the Atlantic. When Fov is positive, the AMOC exports freshwater from the Atlantic; if the AMOC weakens, less freshwater is removed, leading to freshening, reduced deep-water formation, and further AMOC weakening. This creates a destabilizing salinity-advection feedback [@cheng2018]. If freshwater transport across the southern Atlantic boundary becomes negative, the system may be especially vulnerable to a self-reinforcing weakening state, in which reduced salt import amplifies Atlantic freshening and suppresses sinking.
+
+Global mean temperature increase: Global warming increases AMOC stress by raising sea surface temperatures, melting ice, and increasing freshwater input into the North Atlantic. This can be tracked in °C above pre-industrial levels, although the exact collapse threshold is uncertain and model-dependent.
+
+Rate of warming: The speed of warming is important because rapid climate forcing may reduce the ocean’s ability to adjust. This can be tracked in °C per decade.
+
+Freshwater input: Freshwater from Greenland melt, Arctic river runoff, precipitation, and sea-ice melt lowers North Atlantic salinity. This can be tracked in km³/year or Sverdrups (Sv) of freshwater forcing.
+
+AMOC strength: AMOC transport is measured in Sverdrups (Sv), where 1 Sv equals 1 million m³/s. A very weak AMOC state is often represented in models as around or below 3–6 Sv, although the exact threshold varies between models.
+
+Surface buoyancy flux: This measures the combined effect of heat and freshwater exchange at the ocean surface. A threshold may be approached when buoyancy forcing prevents surface waters from becoming dense enough to sink and sustain overturning [@willeit2024].
+
+Sea surface salinity: Declining salinity in key North Atlantic deep-water formation regions can indicate reduced surface-water density. This can be tracked in practical salinity units (PSU).
+
+Surface-water density: This combines the effects of temperature and salinity. A threshold is approached when surface waters become too warm or too fresh to sink effectively, weakening deep-water formation.
+
+##### Impacts on ecosystem services from AMOC collapse
+
+Provisioning services: An AMOC collapse could reduce marine food provision by disrupting ocean temperature, nutrient transport, oxygen distribution, and plankton productivity. These changes would affect fish distribution, fish stocks, and fisheries, especially in the North Atlantic [@boot2025; @nummelin2026]. Agricultural production could also be affected through shifts in regional temperature, rainfall, and growing-season conditions.
+
+Regulating services: The AMOC helps regulate climate by transporting heat northward and influencing rainfall patterns [@ipcc2022]. A collapse would weaken this climate-regulating function, potentially causing strong regional cooling in parts of Europe, altered precipitation patterns, and changes in storm tracks. It could also reduce ocean carbon uptake, allowing more CO₂ to remain in the atmosphere and reinforcing climate warming.
+
+Carbon sequestration: A weakened or collapsed AMOC could reduce the ocean’s ability to absorb and store carbon. Reduced vertical mixing and changes in deep-water formation would limit the transport of carbon from surface waters to the deep ocean. This would weaken the ocean carbon sink and contribute to higher atmospheric CO₂ concentrations [@nian2026].
+
+Supporting services: AMOC collapse would affect nutrient cycling, ocean mixing, deep-water formation, and oxygen transport. These processes support marine productivity and habitat conditions. If circulation weakens, changes in nutrient supply and oxygen levels could alter marine ecosystems and reduce biodiversity in affected regions [@ipcc2022].
+
+Coastal protection and habitat services: A weakened AMOC can contribute to regional sea-level rise, especially along parts of the North Atlantic coastline. This would increase pressure on coastal wetlands, estuaries, and marine habitats, reducing their ability to provide coastal protection, nursery habitats, and biodiversity support [@vanwesten2026].
+
+Freshwater and terrestrial ecosystem services: Changes in rainfall patterns could affect river flows, soil moisture, freshwater availability, and wetland ecosystems [@benyami2024]. In some regions, this could increase drought risk, while others may experience wetter conditions. These changes would affect water supply, agriculture, and habitat quality.
+
+Cultural services: Impacts on fisheries, coastal landscapes, biodiversity, and climate conditions could affect recreation, tourism, cultural identity, and traditional livelihoods, especially in coastal and high-latitude communities that depend on marine ecosystems [@nummelin2026].
+
+#### References
 
